@@ -1,4 +1,23 @@
 {
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch css/mystyle.scss css/mystyle.css",
+    "sass-min": "node-sass --watch css/mystyle.scss css/mystyle.min.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yancoim/Portifolio_Yan.git"
+  },
+  "keywords": [],
+  "author": "Yan Coimbra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yancoim/Portifolio_Yan/issues"
+  },
+  "homepage": "https://github.com/yancoim/Portifolio_Yan#readme",
   "dependencies": {
     "bootstrap": "^5.2.0-beta1"
   }
